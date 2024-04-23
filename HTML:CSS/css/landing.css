@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+}
+
+.main-background {
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  height: 550px;
+  padding: 20px;
+  color: white;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-text {
+  float: left;
+  margin-top: 50px;
+}
+
+.main-iphone {
+  width: 400px;
+  float: right;
+  margin-top: 95px;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: "nanumsquare";
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+btn-black {
+  background: #444;
+  color: white;
+}
+
+.btn-black:hover {
+  border-color: #5e61c0;
+  color: grey;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-10px);
+  transition: all 1s;
+}
+
+.btn-black:active {
+}
+
+.service {
+  background: #4e61c0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 60px 30px 50px 30px;
+}
+
+.service-items {
+  display: flex;
+}
+
+.service-items div {
+  width: 25%;
+}
+
+.service h5 {
+  margin-bottom: 0px;
+}
+
+.service-icon {
+  background: white;
+  color: #4e61c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.portfolio-item1 {
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/portfolio-1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 0px solid white;
+}
+
+.white-box:hover {
+  border: 30px solid white;
+  transition: all 1s;
+  opacity: 0.2;
+}
+
+footer {
+  /* position: relative; */
+  width: 100%;
+  background: #eee;
+  margin: auto;
+  padding: 50px 100px;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.sec h2 {
+  position: relative;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.sec p {
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.sci {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  margin-top: 20px;
+}
+.sci li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #333;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.sci li a i {
+  font-size: 20px;
+  color: #fff;
+}
+.quicklinks {
+  position: relative;
+}
+.quicklinks li a {
+  display: inline-block;
+  color: #555;
+  margin-bottom: 10px;
+}
+.info {
+  position: relative;
+}
+.info li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+.info li span {
+  font-size: 20px;
+  color: #555;
+  gap: 10px;
+}
+.info li a {
+  color: #555;
+}
+.copyrightText {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 20px 100px 30px;
+  color: #555;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .main-background {
+    height: 569px;
+  }
+
+  .main-iphone {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
+  }
+
+  .main-text {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .service-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-items div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .portfolio-item1 {
+    float: none;
+    width: 100%;
+  }
+}

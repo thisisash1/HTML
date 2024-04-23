@@ -1,0 +1,76 @@
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+td,
+th {
+  /* border: 1px solid black; */
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  /* background-color: coral; */
+  color: white;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.main-btn:hover {
+  background-color: chocolate;
+}
+.btn:focus {
+  background-color: green;
+}
+
+.btn:active {
+  background-color: gray;
+  border: 2px solid red;
+}
+
+.input-test {
+  font-size: 20px;
+}
+
+.input-test:focus {
+  border: 5px solid red;
+}
+
+.custom-link {
+  text-decoration: none;
+}
+.custom-link:link {
+  color: skyblue;
+}
+.custom-link:visited {
+  color: black;
+}

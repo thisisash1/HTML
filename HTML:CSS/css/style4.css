@@ -1,0 +1,33 @@
+div,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "예쁜폰트2";
+}
+html {
+  line-height: 1.15; /*기본 행간 높이*/
+}
+
+.explain-container > div {
+  float: left;
+  width: 25%;
+}
+
+@media screen and (max-width: 992px) {
+  .explain-container > div {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .explain-container > div {
+    float: none;
+    width: 100%;
+  }
+}

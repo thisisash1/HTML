@@ -1,0 +1,32 @@
+.container {
+  width: 800px;
+  height: 800px;
+  background-color: #eeeeee;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+}
+
+.left-menu {
+  width: 30%;
+  height: 700px;
+  background: cornflowerblue;
+  display: inline-block;
+}
+
+.right-menu {
+  width: 70%;
+  height: 700px;
+  background: coral;
+  display: inline-block;
+}
+
+/* float 쓰고 나서 다음에 오는 요소는 claer:both로 띄워진 div를 재배치 해줘야함 */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgray;
+}
